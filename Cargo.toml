@@ -1,0 +1,10 @@
+[package]
+name = "prometheus_grafana_hands_on"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.216", features = ["derive"] }
+axum = "0.7.9"
+tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
+prometheus = "0.13.4"
