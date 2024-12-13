@@ -24,7 +24,7 @@ Using `make`, the containers are started, and the entire setup is initiated.
 
 To test the dashboard, you can open Grafana in your preferred web browser with: http://localhost:3001/login. Login with the credentials (`admin`/`admin`), go to the `Dashboards` section and open the `Transactions DEMO` dashboard.
 
-he panels will be blank. To populate them with data, we can send some information to the API:
+The panels will be blank. To populate them with data, we can send some information to the API:
 
 ```sh
 watch -n 1 'curl -s -X POST http://localhost:3000/transact -H "Content-Type: application/json" -d '\''{"operation": "reada", "id": 4, "value": 100.50}'\'
