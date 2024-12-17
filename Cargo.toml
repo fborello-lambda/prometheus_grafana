@@ -8,3 +8,6 @@ serde = { version = "1.0.216", features = ["derive"] }
 axum = "0.7.9"
 tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
 prometheus = "0.13.4"
+tracing-subscriber = "0.3.19"
+tracing = "0.1.41"
+rand = "0.8.5"
